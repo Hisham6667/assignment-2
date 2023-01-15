@@ -339,7 +339,7 @@ body {
 /* responsive for mobile phones by using media queries */
 
 @media only screen and (max-width: 576px) {
-    .main-first, .main-second, .main-second-2, .main-third, .main-fourth, .footer {
+    .main-second, .main-second-2, .main-third, .main-fourth, .footer {
         display: none;
     }
     .header, .header-info {
@@ -370,5 +370,14 @@ body {
     .header-info button {
         font-size: 10px;
         padding: 10px 15px;
+    }
+    .main {
+        padding: 30px 0;
+    }
+    .main-first {
+        padding: 0 30px;
+    }
+    .main-first-img div img {
+        width: 100px;
     }
 }
